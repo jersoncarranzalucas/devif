@@ -20,3 +20,25 @@
       text-align: justify;
     }
 
+    #misionvision {
+
+        /* background-image: url('https://images.unsplash.com/photo-1494173853739-c21f58b16055?auto=format&fit=crop&w=1600&q=80'); */
+        /* background-image: url("../..") */
+        background-image: url("../image/landscape2026.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+
+    #misionvision .overlay {
+        background-color: rgba(0, 0, 0, 0.6); /* oscurece para mejorar lectura */
+        padding: 60px 30px;
+    }
+
+    @media (max-width: 768px) {
+    #misionvision {
+      background-attachment: scroll; /* Mejora compatibilidad en móviles */
+        }
+    }
